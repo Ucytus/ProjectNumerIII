@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Vidriazos — Tazas y vasos artesanales de vidrio con grabados personalizados. Diseño único en vidrio borosilicato de alta resistencia.">
+  <title>Vidriazos | Vidrio Artesanal Grabado</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Cursor Glow -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="#" class="navbar-logo">
+        <img src="imgs/logo.png" alt="Vidriazos Logo">
+        <span>Vidriazos</span>
+      </a>
+      <div class="navbar-links" id="navLinks">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#productos">Productos</a>
+        <a href="#permisos">Permisos</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#equipo">Equipo</a>
+      </div>
+      <div class="hamburger" id="hamburger" onclick="document.getElementById('navLinks').classList.toggle('active')">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg"><img src="imgs/hero_workshop.png" alt="Taller de vidrio"></div>
+    <div class="hero-content">
+      <div class="hero-badge">🔥 Vidrio Artesanal desde Lerdo, Durango</div>
+      <h1>El arte<br>en <span class="highlight">vidrio</span></h1>
+      <p>Creamos tazas y vasos completamente de vidrio borosilicato con grabados personalizados. Tu foto, tu logo, tu
+        diseño — tallado con precisión en el vidrio más resistente.</p>
+      <div class="hero-buttons">
+        <a href="#productos" class="btn btn-primary">Ver Productos</a>
+        <a href="#equipo" class="btn btn-secondary">Nuestro Equipo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <span>Vidrio Borosilicato</span><span>Grabado Láser</span><span>Diseño Personalizado</span><span>Hecho en
+        México</span><span>Alta Resistencia</span><span>Artesanal</span>
+      <span>Vidrio Borosilicato</span><span>Grabado Láser</span><span>Diseño Personalizado</span><span>Hecho en
+        México</span><span>Alta Resistencia</span><span>Artesanal</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="nosotros">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image reveal-left">
+          <img src="imgs/product_collection.png" alt="Colección de productos Vidriazos">
+        </div>
+        <div class="about-text reveal-right">
+          <h2 class="accent-underline">¿Quiénes Somos?</h2>
+          <p>En <strong>Vidriazos</strong>, fusionamos la tradición artesanal con tecnología de grabado de última
+            generación. Cada pieza es fabricada con <strong>vidrio borosilicato</strong> — el mismo material utilizado
+            en laboratorios y la industria aeroespacial — reconocido por su extraordinaria resistencia a impactos
+            térmicos y mecánicos.</p>
+          <p>Nuestro proceso permite grabar cualquier imagen, fotografía, logotipo o diseño directamente sobre la
+            superficie del vidrio, creando piezas únicas que son tanto funcionales como obras de arte.</p>
+          <div class="about-features">
+            <div class="feature-tag"><span class="icon">🛡️</span> Vidrio Borosilicato</div>
+            <div class="feature-tag"><span class="icon">🎯</span> Grabado de Precisión</div>
+            <div class="feature-tag"><span class="icon">🎨</span> Diseño Personalizado</div>
+            <div class="feature-tag"><span class="icon">🇲🇽</span> Hecho en México</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products" id="productos">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Nuestros <span class="accent-underline">Productos</span></h2>
+        <p class="section-subtitle" style="color:rgba(255,255,255,.7)">Cada taza y vaso es una pieza única, elaborada
+          completamente en vidrio de alta resistencia con grabados permanentes.</p>
+      </div>
+      <div class="products-grid">
+        <div class="product-card reveal-scale">
+          <div class="product-card-image"><img src="imgs/product_floral.png" alt="Taza con grabado floral"></div>
+          <div class="product-card-body">
+            <h3>Taza Floral</h3>
+            <p>Elegante taza de vidrio con un delicado grabado de rosa. Perfecta para regalar o para uso diario.</p>
+            <span class="product-tag">Popular</span>
+          </div>
+        </div>
+        <div class="product-card reveal-scale">
+          <div class="product-card-image"><img src="imgs/product_wolf.png" alt="Vaso con grabado de lobo"></div>
+          <div class="product-card-body">
+            <h3>Vaso Artístico</h3>
+            <p>Vaso con grabado detallado de un lobo. Ideal para quienes buscan un diseño impactante y único.</p>
+            <span class="product-tag">Exclusivo</span>
+          </div>
+        </div>
+        <div class="product-card reveal-scale">
+          <div class="product-card-image"><img src="imgs/product_logo.png" alt="Taza corporativa"></div>
+          <div class="product-card-body">
+            <h3>Taza Corporativa</h3>
+            <p>Taza personalizada con logotipo empresarial. Perfecta para regalos corporativos y promocionales.</p>
+            <span class="product-tag">Empresas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PERMITS -->
+  <section class="permits" id="permisos">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Permisos <span class="accent-underline">Municipales</span></h2>
+        <p class="section-subtitle">Documentación y permisos otorgados por el H. Ayuntamiento de Lerdo, Durango para la
+          operación legal de nuestra empresa.</p>
+      </div>
+      <div class="permits-grid">
+        <div class="permit-card reveal-left">
+          <div class="permit-header">
+            <div class="permit-icon" style="background:var(--accent-yellow)">📋</div>
+            <h3>Licencia de Funcionamiento</h3>
+          </div>
+          <div class="permit-body">
+            <div class="field"><span class="label">No. de Licencia</span><span class="value">LF-LDO-2026-04821</span>
+            </div>
+            <div class="field"><span class="label">Municipio</span><span class="value">Lerdo, Durango</span></div>
+            <div class="field"><span class="label">Giro</span><span class="value">Manufactura y Venta de Artículos de
+                Vidrio</span></div>
+            <div class="field"><span class="label">Razón Social</span><span class="value">Vidriazos S.A. de C.V.</span>
+            </div>
+            <div class="field"><span class="label">Vigencia</span><span class="value">01/01/2026 — 31/12/2026</span>
+            </div>
+            <span class="permit-status approved">✓ Aprobado</span>
+          </div>
+        </div>
+        <div class="permit-card reveal">
+          <div class="permit-header">
+            <div class="permit-icon" style="background:var(--accent-blue)">🏗️</div>
+            <h3>Uso de Suelo</h3>
+          </div>
+          <div class="permit-body">
+            <div class="field"><span class="label">No. de Permiso</span><span class="value">US-LDO-2026-01547</span>
+            </div>
+            <div class="field"><span class="label">Tipo de Uso</span><span class="value">Comercial / Industrial
+                Ligero</span></div>
+            <div class="field"><span class="label">Zona</span><span class="value">Zona Centro, Lerdo, Dgo.</span></div>
+            <div class="field"><span class="label">Superficie</span><span class="value">180 m²</span></div>
+            <div class="field"><span class="label">Vigencia</span><span class="value">01/01/2026 — 31/12/2028</span>
+            </div>
+            <span class="permit-status approved">✓ Aprobado</span>
+          </div>
+        </div>
+        <div class="permit-card reveal-right">
+          <div class="permit-header">
+            <div class="permit-icon" style="background:var(--accent-pink)">🔥</div>
+            <h3>Protección Civil</h3>
+          </div>
+          <div class="permit-body">
+            <div class="field"><span class="label">No. de Dictamen</span><span class="value">PC-LDO-2026-00893</span>
+            </div>
+            <div class="field"><span class="label">Clasificación</span><span class="value">Riesgo Bajo</span></div>
+            <div class="field"><span class="label">Capacidad</span><span class="value">25 personas</span></div>
+            <div class="field"><span class="label">Extintores</span><span class="value">4 unidades (verificados)</span>
+            </div>
+            <div class="field"><span class="label">Vigencia</span><span class="value">01/03/2026 — 28/02/2027</span>
+            </div>
+            <span class="permit-status approved">✓ Aprobado</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION -->
+  <section class="location" id="ubicacion">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Nuestra <span class="accent-underline">Ubicación</span></h2>
+        <p class="section-subtitle" style="color:rgba(255,255,255,.7)">Encuéntranos en Lerdo, Durango. Nuestras puertas
+          están abiertas para ti.</p>
+      </div>
+      <div class="location-grid">
+        <div class="map-wrapper reveal-left">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d904.6!2d-103.5109535!3d25.5518698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fd8f7d8f1954b%3A0xe761dc89ea9e72bb!2sVimar.%20Aluminio%20Y%20Vidrio!5e0!3m2!1ses!2smx!4v1700000000000"
+            allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="location-info reveal-right">
+          <h3>Visítanos</h3>
+          <div class="location-detail">
+            <div class="icon">📍</div>
+            <div class="info">
+              <h4>Dirección</h4>
+              <p>Zona Centro, Cd. Lerdo, Durango, México (Referencia: Vimar. Aluminio Y Vidrio)</p>
+            </div>
+          </div>
+          <div class="location-detail">
+            <div class="icon">🕐</div>
+            <div class="info">
+              <h4>Horario</h4>
+              <p>Lunes a Viernes: 9:00 AM — 6:00 PM<br>Sábados: 9:00 AM — 2:00 PM</p>
+            </div>
+          </div>
+          <div class="location-detail">
+            <div class="icon">📞</div>
+            <div class="info">
+              <h4>Contacto</h4>
+              <p>Tel: (871) 123-4567<br>Email: contacto@vidriazos.com</p>
+            </div>
+          </div>
+          <div class="location-detail">
+            <div class="icon">🌐</div>
+            <div class="info">
+              <h4>Coordenadas GPS</h4>
+              <p>25.5518698° N, -103.5109535° O</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="team" id="equipo">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Nuestro <span class="accent-underline">Equipo</span></h2>
+        <p class="section-subtitle">Los profesionales detrás de cada pieza de vidrio artesanal.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card reveal-scale">
+          <div class="team-card-photo">
+            <img src="imgs/Castillo.png" alt="Nery Emmanuel Castillo Martínez">
+            <span class="role-badge">Fundador</span>
+          </div>
+          <div class="team-card-body">
+            <h3>Castillo Nery</h3>
+            <div class="title">Fundador & Intercambios Internacionales</div>
+            <p>Fundador de Vidriazos y encargado de gestionar los intercambios comerciales internacionales. Su visión ha
+              llevado la marca más allá de las fronteras nacionales, estableciendo alianzas con distribuidores en
+              América Latina y Europa.</p>
+          </div>
+        </div>
+        <div class="team-card reveal-scale">
+          <div class="team-card-photo">
+            <img src="imgs/Amaya.png" alt="Alan Antonio Amaya Moreno">
+            <span class="role-badge">Logística</span>
+          </div>
+          <div class="team-card-body">
+            <h3>Amaya Alan</h3>
+            <div class="title">Especialista en Logística</div>
+            <p>Responsable de la cadena de suministro y distribución. Se asegura de que cada pieza llegue en perfectas
+              condiciones a su destino, coordinando envíos nacionales e internacionales con máxima eficiencia.</p>
+          </div>
+        </div>
+        <div class="team-card reveal-scale">
+          <div class="team-card-photo">
+            <img src="imgs/Navarro.png" alt="David Alberto Navarro Rodríguez">
+            <span class="role-badge">Maquinaria</span>
+          </div>
+          <div class="team-card-body">
+            <h3>Navarro David</h3>
+            <div class="title">Especialista en Maquinaria de Vidrio</div>
+            <p>Experto en la operación y mantenimiento de los equipos de grabado y moldeo de vidrio. Su dominio técnico
+              de la maquinaria CNC y láser garantiza la precisión de cada grabado.</p>
+          </div>
+        </div>
+        <div class="team-card reveal-scale">
+          <div class="team-card-photo">
+            <img src="imgs/Garcia.png" alt="Jordan Alonso García Sosa">
+            <span class="role-badge">Gerencia</span>
+          </div>
+          <div class="team-card-body">
+            <h3>García Jordan</h3>
+            <div class="title">Gerente de Personal</div>
+            <p>Administra el equipo de trabajo, coordinando las actividades diarias del taller y asegurando un ambiente
+              laboral productivo. Su liderazgo mantiene la motivación y eficiencia del equipo.</p>
+          </div>
+        </div>
+        <div class="team-card reveal-scale">
+          <div class="team-card-photo">
+            <img src="imgs/Vitela.png" alt="Rafael Vitela Sosa">
+            <span class="role-badge">Marketing</span>
+          </div>
+          <div class="team-card-body">
+            <h3>Vitela Rafael</h3>
+            <div class="title">Experto en Marketing</div>
+            <p>Diseña y ejecuta las estrategias de marketing digital y tradicional. Desde la identidad visual hasta las
+              campañas en redes sociales, Rafael posiciona a Vidriazos como marca líder en vidrio artesanal.</p>
+          </div>
+        </div>
+        <div class="team-card reveal-scale">
+          <div class="team-card-photo">
+            <img src="imgs/Ortiz.png" alt="Ulises Gerardo Ortiz González">
+            <span class="role-badge">Investigación</span>
+          </div>
+          <div class="team-card-body">
+            <h3>Ortiz Ulises</h3>
+            <div class="title">Investigador de Materiales</div>
+            <p>Encargado de la investigación y selección de los materiales. Su conocimiento en vidrio borosilicato y
+              técnicas de templado asegura que cada producto cumpla con los más altos estándares de resistencia y
+              calidad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-main">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Vidriazos</h3>
+          <p>Tazas y vasos artesanales de vidrio borosilicato con grabados personalizados. Cada pieza cuenta una
+            historia.</p>
+          <div class="social-links">
+            <a href="https://instagram.com/VidriazosReally" target="_blank" class="social-link" title="Instagram"><i
+                class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/VidriazosReally" target="_blank" class="social-link" title="Twitter/X"><i
+                class="fab fa-x-twitter"></i></a>
+            <a href="https://youtube.com/@VidriazosReally" target="_blank" class="social-link" title="YouTube"><i
+                class="fab fa-youtube"></i></a>
+            <a href="https://reddit.com/u/VidriazosReally" target="_blank" class="social-link" title="Reddit"><i
+                class="fab fa-reddit-alien"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <a href="#inicio">Inicio</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#productos">Productos</a>
+          <a href="#permisos">Permisos</a>
+          <a href="#ubicacion">Ubicación</a>
+          <a href="#equipo">Equipo</a>
+        </div>
+        <div class="footer-col">
+          <h4>Plataforma</h4>
+          <a href="#">GitHub Pages</a>
+          <a href="https://instagram.com/VidriazosReally" target="_blank">Instagram</a>
+          <a href="https://twitter.com/VidriazosReally" target="_blank">Twitter / X</a>
+          <a href="https://youtube.com/@VidriazosReally" target="_blank">YouTube</a>
+          <a href="https://reddit.com/u/VidriazosReally" target="_blank">Reddit</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">&copy; 2026 Vidriazos S.A. de C.V. — Lerdo, Durango, México. Todos los derechos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Scroll reveal
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.reveal,.reveal-left,.reveal-right,.reveal-scale').forEach(el => obs.observe(el));
+
+    // Navbar scroll
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Cursor glow
+    const glow = document.getElementById('cursorGlow');
+    document.addEventListener('mousemove', e => {
+      glow.style.left = e.clientX + 'px';
+      glow.style.top = e.clientY + 'px';
+    });
+  </script>
+</body>
+
+</html>
